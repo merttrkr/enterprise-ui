@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import HeroSection from '@/components/HeroSection'
-
+import Features from '@/components/Feature'
+import Statistics from '@/components/Statistic'
+import Testimonials from '@/components/Testimonials'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -14,7 +17,10 @@ export default function Home() {
       </Head>
       <Navbar/>
       <HeroSection/>
-      
+      <Features/>
+      <Statistics/>
+      <Testimonials/>
+      <Footer/>
     </>
   )
 }
